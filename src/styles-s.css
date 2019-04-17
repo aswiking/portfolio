@@ -1,0 +1,38 @@
+html {
+    font-size: 16px;
+}
+
+body {
+  margin: 0;
+ 
+  background-color: #ffd42aff;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 2.5rem;
+  color: #0b4541ff;
+}
+
+h2 {
+  font-family: "Heebo";
+  font-size: 2rem;
+}
+
+p {
+    font-family: "Heebo";
+    font-size: 1rem;
+}
+
+
+
+div .screen-objects {
+    position: absolute;
+    z-index: 10;
+}
+
+.computer {
+    position: absolute;
+    z-index: 1;
+}
