@@ -2,3 +2,19 @@ body {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
 }
+
+.main-section {
+background-color: #d4898cff;
+grid-area: 1 / 1 / span 2 / span 1;
+}
+
+.about-section{
+    background-color: #0b4541ff;
+    grid-area: 1 / 2 / span 1 / span 1;
+}
+
+.work-section {
+    background-color: #dededfff;
+    grid-area: 2 / 2 / span 1 / span 1;
+
+}
