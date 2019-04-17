@@ -58,9 +58,15 @@ p {
     margin: 5%;
 }
 
+.about-section p {
+    margin: 5%;
+}
+
 /*Work section formatting*/
 
 .work-section {
+  display: grid;
+  grid-template: 1fr 4fr / 4fr 1fr;
   background-color: #dededfff;
   color: #0b4541ff;
   grid-area: 2 / 2 / span 1 / span 1;
@@ -68,4 +74,14 @@ p {
 
 .work-section h2 {
     margin: 5%;
+}
+
+.work-section .image {
+    margin: 0 5%;
+}
+
+.work-section .arrow img {
+position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
