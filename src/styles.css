@@ -12,13 +12,13 @@ body {
 h1 {
   margin: 0;
   font-family: "Rubik Mono One", sans-serif;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   color: #0b4541ff;
 }
 
 h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .main-section {
@@ -27,14 +27,26 @@ h2 {
   grid-area: 1 / 1 / span 2 / span 1;
 }
 
+.main-section h1 {
+    margin: 20% 5%;
+}
+
 .about-section {
   background-color: #0b4541ff;
   color: #dededfff;
   grid-area: 1 / 2 / span 1 / span 1;
 }
 
+.about-section h2 {
+    margin: 5%;
+}
+
 .work-section {
   background-color: #dededfff;
   color: #0b4541ff;
   grid-area: 2 / 2 / span 1 / span 1;
+}
+
+.work-section h2 {
+    margin: 5%;
 }
