@@ -35,16 +35,21 @@ p {
 }
 
 .main-section h1 {
-    margin: 20% 0 0 5%;
+    margin: 20% 0 0 3%;
 }
 
 .logos {
-    margin: 5%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hide;
 }
 
 .logos img {
-    margin: 0 2%;
+    margin: 2% 0;
 }
+
+
+
 
 /*About section formatting*/
 
