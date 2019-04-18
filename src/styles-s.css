@@ -1,5 +1,5 @@
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 body {
@@ -20,39 +20,39 @@ h2 {
 }
 
 p {
-    font-family: "Heebo";
-    font-size: 1rem;
+  font-family: "Heebo";
+  font-size: 1rem;
 }
 
 .computer {
-    background: url(../wireframes/Computer.svg) no-repeat center;
-    background-size: contain;
-     height: 600px;
-     display: block;
-     margin: 200px 0;
+  background: url(../wireframes/Computer.svg) no-repeat center;
+  background-size: contain;
+  height: 600px;
+  display: block;
+  margin: 200px 0;
+}
+
+.screen-objects {
 
 }
 
-.screen-objects{
-    padding: 70px 0 0 245px;
+.screen-heading {
+    padding: 70px 0px;
+    text-align: center;
 }
 
 .logos {
-    margin: 10px 0;
+    margin: 46px 0 0 220px;
 }
 
 .logos img {
-display: inline-block;
-}
-
-.github {
-
+  display: inline-block;
 }
 
 .linkedin {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
-.twitter {
-
+.envelope {
+    margin: 15px 0 0 218px;
 }
