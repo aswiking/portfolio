@@ -67,3 +67,16 @@ p {
 .envelope {
     margin: 15px 0 0 218px;
 }
+
+.arrow {
+    display: block;
+    margin: auto;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .computer {
+        height: 600px;
+        margin: 200px 0;
+      }
+}
