@@ -24,8 +24,15 @@ p {
     font-size: 1rem;
 }
 
-.screen-objects {
+.computer {
     background: url(../wireframes/Computer.svg) no-repeat center;
     background-size: contain;
-    margin: 24% 30%;
+     height: 600px;
+     display: block;
+     margin: 200px 0;
+
+}
+
+.screen-objects{
+    padding: 70px 0 0 245px;
 }
