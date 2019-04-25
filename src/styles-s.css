@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 h1 {
   margin: 0;
   font-family: "Rubik Mono One", sans-serif;
-  font-size: 2.5rem;
+  font-size: 12pt;
   color: #ffd42aff;
 }
 
@@ -32,56 +33,63 @@ p {
 .navigation p {
     display: inline-block;
     padding: 0 25px;
-    margin: 35px 0;
 }
 
 .computer {
   background: url(../wireframes/Computer.svg) no-repeat center;
   background-size: contain;
-  height: 600px;
   display: block;
-  margin: 200px 0;
+  width: 250px;
+  height: 192px;
+  margin: 10px auto;
 }
 
 .screen-objects {
+    padding: 12px 38px;
 
 }
 
 .screen-heading {
-    padding: 70px 0px;
     text-align: center;
+    margin: 15px 0 10px;
 }
 
 .logos {
-    margin: 46px 0 0 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 11px 0 8px;
 }
 
 .logos img {
   display: inline-block;
+  height: 18px;
 }
 
 .linkedin {
-  margin: 0 15px;
+  margin: 0 5px;
 }
 
 .envelope {
-    margin: 15px 0 0 218px;
+    overflow: hidden;
+}
+
+.envelope img {
+    height: 17px;
 }
 
 .arrow {
     display: block;
-    margin: auto;
+    margin: 20px auto;
+    width: 46px;
 }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     .computer {
-        height: 500px;
         margin: 0;
       }
 
       .navigation p {
         display: inline-block;
         padding: 0 80px;
-        margin: 35px 0;
 }
