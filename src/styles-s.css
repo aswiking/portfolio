@@ -11,7 +11,7 @@ body {
 h1 {
   margin: 0;
   font-family: "Rubik Mono One", sans-serif;
-  font-size: 12pt;
+  font-size: 11.5pt;
   color: #ffd42aff;
 }
 
@@ -51,7 +51,7 @@ p {
 
 .screen-heading {
     text-align: center;
-    margin: 20px 0 10px;
+    margin: 24px 0 10px;
 }
 
 .line {
@@ -59,13 +59,26 @@ p {
     border: 1px solid  #ffd42aff;
     margin: 0;
     position: relative;
-    top: 16px;
+    top: 20px;
     z-index: 0;
+}
+
+.block {
+    height: 4px;
+    margin: 0px auto;
+    position: relative;
+    top: 17px;
+    width: 123px;
+    z-index: 1;
+    background-color: #0b4541ff;
 }
 
 .logos {
     margin: 5px 0 8px;
     padding: 0 6px;
+    text-align: center;
+    z-index: 10;
+    position: relative;
 }
 
 .logos img {
@@ -78,7 +91,7 @@ p {
  
 }
 .logos .envelope  /*envelope in logos line*/ {
-    padding: 0 0 0 34px;
+
 }
 
 
@@ -96,7 +109,7 @@ p {
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     .computer {
-        margin: 0;
+        margin: 23px auto;
       }
 
       .navigation p {
