@@ -27,12 +27,12 @@ p {
 }
 
 .navigation {
-    text-align: center;
+  text-align: center;
 }
 
 .navigation p {
-    display: inline-block;
-    padding: 0 25px;
+  display: inline-block;
+  padding: 0 25px;
 }
 
 .computer {
@@ -45,40 +45,39 @@ p {
 }
 
 .screen-objects {
-    padding: 12px 38px;
-
+  padding: 12px 38px;
 }
 
 .screen-heading {
-    text-align: center;
-    margin: 24px 0 10px;
+  text-align: center;
+  margin: 24px 0 10px;
 }
 
 .line {
-    height: 0;
-    border: 1px solid  #ffd42aff;
-    margin: 0;
-    position: relative;
-    top: 20px;
-    z-index: 0;
+  height: 0;
+  border: 1px solid #ffd42aff;
+  margin: 0;
+  position: relative;
+  top: 20px;
+  z-index: 0;
 }
 
 .block {
-    height: 4px;
-    margin: 0px auto;
-    position: relative;
-    top: 17px;
-    width: 123px;
-    z-index: 1;
-    background-color: #0b4541ff;
+  height: 4px;
+  margin: 0px auto;
+  position: relative;
+  top: 17px;
+  width: 123px;
+  z-index: 1;
+  background-color: #0b4541ff;
 }
 
 .logos {
-    margin: 5px 0 8px;
-    padding: 0 6px;
-    text-align: center;
-    z-index: 10;
-    position: relative;
+  margin: 5px 0 8px;
+  padding: 0 6px;
+  text-align: center;
+  z-index: 10;
+  position: relative;
 }
 
 .logos img {
@@ -88,31 +87,48 @@ p {
 }
 
 .linkedin {
- 
 }
 .logos .envelope  /*envelope in logos line*/ {
-
 }
 
-
 .envelope img /*envelope on its own line*/ {
-    height: 17px;
-    display: none;
+  height: 17px;
+  display: none;
 }
 
 .arrow {
-    display: block;
-    margin: 20px auto;
-    width: 46px;
+  display: block;
+  margin: 20px auto;
+  width: 46px;
 }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-    .computer {
-        margin: 23px auto;
-      }
+  .navigation p {
+    display: inline-block;
+    padding: 0 20px;
+}
 
-      .navigation p {
-        display: inline-block;
-        padding: 0 80px;
+  
+    .computer {
+        background: url(../wireframes/Computer.svg) no-repeat center;
+        background-size: contain;
+        display: block;
+        margin: 0 auto;
+        width: 400px;
+        height: 308px;
+    }
+
+    .screen-heading {
+      text-align: center;
+      margin: 24px 0 10px;
+      font-size: 14px;
+    }
+  }
+
+  .arrow {
+    display: block;
+    margin: 11px auto;
+    width: 46px;
+  }
 }
