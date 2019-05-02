@@ -22,7 +22,7 @@ h2 {
 
 p {
   font-family: "Heebo";
-  font-size: 1rem;
+  font-size: 14px;
   color: #0b4541ff;
 }
 
@@ -86,8 +86,6 @@ p {
   padding: 0 4px;
 }
 
-.linkedin {
-}
 .logos .envelope  /*envelope in logos line*/ {
 }
 
@@ -104,31 +102,59 @@ p {
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+  .navigation {
+    text-align: right;
+  }
+
   .navigation p {
     display: inline-block;
-    padding: 0 20px;
-}
+    padding: 0 8px;
+    margin: 7px 15px 27px;
+  }
 
-  
-    .computer {
-        background: url(../wireframes/Computer.svg) no-repeat center;
-        background-size: contain;
-        display: block;
-        margin: 0 auto;
-        width: 400px;
-        height: 308px;
-    }
+  .computer {
+    background: url(../wireframes/Computer.svg) no-repeat center;
+    background-size: contain;
+    display: block;
+    margin: 0 auto;
+    width: 370px;
+    height: 285px;
+  }
 
-    .screen-heading {
-      text-align: center;
-      margin: 24px 0 10px;
-      font-size: 14px;
-    }
+  .screen-heading {
+    text-align: center;
+    margin: 49px 0 20px;
+    font-size: 23px;
   }
 
   .arrow {
     display: block;
-    margin: 11px auto;
+    margin: 20px auto;
     width: 46px;
+  }
+
+  .logos img {
+    display: inline-block;
+    height: 33px;
+    padding: 0 6px;
+  }
+
+  .line {
+    height: 0;
+    border: 2px solid #ffd42aff;
+    margin: 0 13px;
+    position: relative;
+    top: 28px;
+    z-index: 0;
+  }
+  
+  .block {
+    height: 4px;
+    margin: 0px auto;
+    position: relative;
+    top: 24px;
+    width: 187px;
+    z-index: 1;
+    background-color: #0b4541ff;
   }
 }
