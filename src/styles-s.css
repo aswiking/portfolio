@@ -32,7 +32,7 @@ p {
 
 .navigation p {
   display: inline-block;
-  padding: 0 25px;
+  padding: 0 15px;
 }
 
 .computer {
@@ -41,7 +41,7 @@ p {
   display: block;
   width: 250px;
   height: 192px;
-  margin: 10px auto;
+  margin: 40px auto;
 }
 
 .screen-objects {
@@ -98,6 +98,14 @@ p {
   display: block;
   margin: 20px auto;
   width: 46px;
+}
+
+.work {
+display: block;
+background-color: #0b4541ff;
+height: 100px;
+width: 100%;
+margin: 106px 0;
 }
 
 /* Small devices (landscape phones, 576px and up)*/
