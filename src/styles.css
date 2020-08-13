@@ -36,7 +36,7 @@ p {
 }
 
 .computer {
-  background: url(../wireframes/Computer.svg) no-repeat center;
+  background: url(images/Computer.svg) no-repeat center;
   background-size: contain;
   display: block;
   width: 250px;
@@ -258,7 +258,7 @@ p {
   display: block;
   background-color: #0b4541ff;
   width: 100%;
-  margin: 106px 0;
+  margin: 0;
   color: #ffd42aff;
 }
 
@@ -391,4 +391,29 @@ margin: 0;
   .work-title h2 {
     font-size: 5rem;
   }
+}
+
+/* About section*/
+
+.about-section {
+  margin: 0 20px;
+  color: #0b4541ff;
+}
+
+.about-section .navigation {
+  margin-bottom: 20px;
+}
+
+.computer-hand {
+  width: 100%;
+}
+
+.computer-hand.no-logos{
+  display: none;
+}
+
+.about-section p {
+  margin: 20px auto;
+  font-weight: 700;
+  width: 255px;
 }
