@@ -100,8 +100,6 @@ p {
   width: 46px;
 }
 
-
-
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
   .navigation {
@@ -195,10 +193,10 @@ p {
     width: 46px;
   }
 
-.logos {
+  .logos {
     text-align: left;
     margin: 6px 0 13px 34px;
-}
+  }
 
   .logos img {
     display: inline-block;
@@ -220,7 +218,6 @@ p {
     top: 34px;
     width: 127px;
     height: 6px;
-   
   }
 
   .line-2 {
@@ -243,18 +240,17 @@ p {
   }
 
   .logos .envelope  /*envelope in logos line*/ {
-      display: none;
-}
+    display: none;
+  }
 
-.envelope img /*envelope on its own line*/ {
+  .envelope img /*envelope on its own line*/ {
     height: 33px;
     display: block;
     margin: 0 0 0 45px;
     z-index: 5;
     position: relative;
+  }
 }
-}
-
 
 /* Work section */
 
@@ -264,7 +260,7 @@ p {
   width: 100%;
   margin: 106px 0;
   color: #ffd42aff;
-  }
+}
 
 .work .navigation {
   color: #ffd42aff;
@@ -278,10 +274,17 @@ p {
 .portfolio-section {
   margin: 20px;
   display: grid;
-  grid-template-columns: 1.3fr 1fr;
+
   grid-gap: 10px;
 }
 
+.socialist-alternative {
+  grid-template-columns: 1.3fr 1fr;
+}
+
+.cocktail-maker {
+  grid-template-columns: 1fr 1.3fr;
+}
 
 .work-title {
   width: 100%;
@@ -309,5 +312,9 @@ p {
 .image-1 {
   width: 100%;
   grid-area: 4 / 1 / 4 / 3;
+}
 
+.back-to-top {
+  text-align: center;
+  padding-bottom: 20px;
 }
