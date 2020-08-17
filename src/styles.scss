@@ -1,3 +1,6 @@
+$primary-color: #ffd42aff;
+$secondary-color:  #0b4541ff;
+
 html {
   font-size: 16px;
   box-sizing: border-box;
@@ -5,14 +8,14 @@ html {
 
 body {
   margin: 0;
-  background-color: #ffd42aff;
+  background-color: $primary-color;
 }
 
 h1 {
   margin: 0;
   font-family: "Rubik Mono One", sans-serif;
   font-size: 11.5pt;
-  color: #ffd42aff;
+  color: $primary-color;
 }
 
 h2 {
@@ -27,7 +30,7 @@ p {
 
 .navigation {
   text-align: center;
-  color: #0b4541ff;
+  color: $secondary-color;
 }
 
 .navigation p {
@@ -36,7 +39,7 @@ p {
 }
 
 .computer {
-  background: url(images/Computer.svg) no-repeat center;
+  background: url(./images/Computer.svg) no-repeat center;
   background-size: contain;
   display: block;
   width: 250px;
@@ -46,6 +49,7 @@ p {
 
 .screen-objects {
   padding: 12px 38px;
+  color: $primary-color;
 }
 
 .screen-heading {
@@ -53,23 +57,30 @@ p {
   margin: 24px 0 10px;
 }
 
+.top-section {
+  display: grid;
+  grid-template-rows: 1fr 2px 1fr;
+  grid-template-columns: 1fr 115px 1fr;
+}
+
 .line {
   height: 0;
-  border: 1px solid #ffd42aff;
+  border: 1px solid $primary-color;
   margin: 0;
   position: relative;
-  top: 20px;
   z-index: 0;
+  grid-area: 2/1/2/4;
 }
 
 .block {
   height: 4px;
   margin: 0px auto;
   position: relative;
-  top: 17px;
-  width: 123px;
+  top: -1px;
+  width: 100%;
   z-index: 1;
-  background-color: #0b4541ff;
+  grid-area: 2/2/2/2;
+  background-color: $secondary-color;
 }
 
 .logos {
@@ -78,19 +89,16 @@ p {
   text-align: center;
   z-index: 10;
   position: relative;
+  grid-area: 1 / 1 / 4 / 4;
 }
 
-.logos img {
+.logos svg {
   display: inline-block;
-  height: 20px;
   padding: 0 4px;
+  font-size: 1.4rem;
 }
 
-.logos .envelope  /*envelope in logos line*/ {
-}
-
-.envelope img /*envelope on its own line*/ {
-  height: 17px;
+.bottom-section /*envelope on its own line*/ {
   display: none;
 }
 
@@ -113,7 +121,7 @@ p {
   }
 
   .computer {
-    background: url(../wireframes/Computer.svg) no-repeat center;
+    background: url(./images/Computer.svg) no-repeat center;
     background-size: contain;
     display: block;
     margin: 0 auto;
@@ -141,7 +149,7 @@ p {
 
   .line {
     height: 0;
-    border: 2px solid #ffd42aff;
+    border: 2px solid $primary-color;
     margin: 0 13px;
     position: relative;
     top: 28px;
@@ -155,7 +163,7 @@ p {
     top: 24px;
     width: 187px;
     z-index: 1;
-    background-color: #0b4541ff;
+    background-color: $secondary-color;
   }
 }
 
@@ -169,7 +177,7 @@ p {
   }
 
   .computer {
-    background: url(../wireframes/Computer.svg) no-repeat center;
+    background: url(./images/Computer.svg) no-repeat center;
     background-size: contain;
     display: block;
     margin: 70px auto;
@@ -206,7 +214,7 @@ p {
 
   .line {
     height: 0;
-    border: 2px solid #ffd42aff;
+    border: 2px solid $primary-color;
     margin: 0 0 0px -1px;
     position: relative;
     top: 40px;
@@ -223,7 +231,7 @@ p {
   .line-2 {
     top: 81px;
     height: 0;
-    border: 2px solid #ffd42aff;
+    border: 2px solid $primary-color;
     position: relative;
     z-index: 0;
     margin: 0px -1px;
@@ -236,7 +244,7 @@ p {
     z-index: 1;
     height: 6px;
     position: relative;
-    background-color: #0b4541ff;
+    background-color: $secondary-color;
   }
 
   .logos .envelope  /*envelope in logos line*/ {
@@ -256,18 +264,18 @@ p {
 
 .work {
   display: block;
-  background-color: #0b4541ff;
+  background-color: $secondary-color;
   width: 100%;
   margin: 0;
-  color: #ffd42aff;
+  color: $primary-color;
 }
 
 .work .navigation {
-  color: #ffd42aff;
+  color: $primary-color;
 }
 
 .divider-line {
-  border-bottom: dotted 3px #ffd42aff;
+  border-bottom: dotted 3px $primary-color;
   margin: 20px 0;
 }
 
@@ -386,7 +394,7 @@ margin: 0;
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   .work {
-    background-color: #0b4541ff;
+    background-color: $secondary-color;
     }
   .work-title h2 {
     font-size: 5rem;
@@ -397,7 +405,7 @@ margin: 0;
 
 .about-section {
   margin: 0 20px;
-  color: #0b4541ff;
+  color: $secondary-color;
 }
 
 .about-section .navigation {
