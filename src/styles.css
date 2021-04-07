@@ -26,6 +26,11 @@ p {
   font-size: 14px;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .navigation {
   text-align: center;
 }
@@ -303,8 +308,12 @@ p {
   margin: 20px 0;
 }
 
+.divider-line.first {
+  margin: 0 0 20px 0;
+}
+
 .portfolio-section {
-  margin: 20px;
+  margin: 0 20px;
   display: grid;
   grid-gap: 10px;
   align-items: center;
@@ -317,6 +326,7 @@ p {
 
 .cocktail-maker {
   grid-template-columns: 1fr 1.3fr;
+  padding-bottom: 20px;
 }
 
 .work-title {
@@ -354,6 +364,14 @@ p {
 .back-to-top {
   text-align: center;
   padding-bottom: 20px;
+}
+
+.bottom-block {
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+.bottom-block p {
+  padding: 0;
 }
 
 /* Small devices (landscape phones, 576px and up)*/

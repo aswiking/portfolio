@@ -4,55 +4,66 @@
     <title>Sofia Wiking Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="./styles.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;500;531;700;900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;500;531;700;900&family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
     <script src="../node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
   </head>
 
   <body>
+    <a name="home"></a>
     <div class="home yellow-block">
       <!--Home section-->
       <div class="navigation">
-        <div class="navigation-div"><p>Home</p><div class="color-block"></div><div class="circle"></div></div>
-        <div class="navigation-div"><p>Portfolio</p></div>
-        <div class="navigation-div"><p>About</p></div>
-        <div class="navigation-div"><p>Contact</p></div>
+        <div class="navigation-div">
+          <p>Home</p>
+          <div class="color-block"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="navigation-div"><a href="#work"><p>Portfolio</p></a></div>
+        <div class="navigation-div"><a href="#about"><p>About</p></div></a>
       </div>
 
       <div class="computer">
         <div class="screen-objects">
           <h1 class="screen-heading">Sofia Wiking</h1>
           <div class="top-section">
-          <div class="line"></div>
-          <div class="block"></div>
-          <div class="logos">
-            <i class="fab fa-github"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="far fa-envelope"></i>
+            <div class="line"></div>
+            <div class="block"></div>
+            <div class="logos">
+              <a href="https://github.com/aswiking"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/sofia-wiking-089844b4/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://twitter.com/WikiSof"><i class="fab fa-twitter-square"></i></a>
+              <a href="mailto:aswiking@gmail.com"><i class="far fa-envelope"></i></a>
+            </div>
           </div>
-        </div>
-        <div class="bottom-section">
-          <div class="line"></div>
-          <div class="block"></div>
-          <div class="logos">
-            <i class="far fa-envelope"></i>
+          <div class="bottom-section">
+            <div class="line"></div>
+            <div class="block"></div>
+            <div class="logos">
+              <i class="far fa-envelope"></i>
+            </div>
           </div>
-        </div>
         </div>
       </div>
-
-      <img class="arrow" src="images/arrow-7.svg" />
+<a href="#work">
+      <img class="arrow" src="images/arrow-7.svg" /></a>
     </div>
 
     <!--Work section-->
+    <a name="work"></a>
     <div class="work green-block">
       <div class="navigation">
-        <div class="navigation-div"><p>Home</p></div>
-        <div class="navigation-div"><p>Portfolio</p><div class="color-block"></div><div class="circle"></div></div>
-        <div class="navigation-div"><p>About</p></div>
-        <div class="navigation-div"><p>Contact</p></div>
+        <div class="navigation-div"> <a href="#home"><p>Home</p></div></a>
+        <div class="navigation-div">
+          <p>Portfolio</p>
+          <div class="color-block"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="navigation-div"><a href="#about"><p>About</p></div></a>
       </div>
-      <div class="divider-line"></div>
+      <div class="divider-line first"></div>
       <div class="portfolio-section socialist-alternative">
         <img src="images/SA-1.png" class="image-1" />
         <div class="work-title"><h2>Socialist Alternative</h2></div>
@@ -63,43 +74,40 @@
       <div class="divider-line"></div>
       <div class="portfolio-section cocktail-maker">
         <img src="images/CM1.png" class="image-1" />
-        <div class="work-title"><h2 >Cocktail Maker</h2></div>
+        <div class="work-title"><h2>Cocktail Maker</h2></div>
         <img src="images/CM1.png" class="image-2" />
         <img src="images/CM2.png" class="image-3" />
         <img src="images/CM3.png" class="image-4" />
       </div>
-      <div class="divider-line"></div>
-      <p class='back-to-top'>Back to top</p>
     </div>
-        <!--About section-->
+    <!--About section-->
+    <a name="about"></a>
     <div class="about yellow-block">
       <div class="navigation">
-        <div class="navigation-div"><p>Home</p></div>
-        <div class="navigation-div"><p>Portfolio</p></div>
-        <div class="navigation-div"><p>About</p><div class="color-block"></div><div class="circle"></div></div>
-        <div class="navigation-div"><p>Contact</p></div>
+        <div class="navigation-div"><a href="#home"><p>Home</p></div></a>
+        <div class="navigation-div"><a href="#work"><p>Portfolio</p></div></a>
+        <div class="navigation-div">
+          <p>About</p>
+          <div class="color-block"></div>
+          <div class="circle"></div>
+        </div>
       </div>
-      <div class = "about-section">
+      <div class="about-section">
         <img src="images/computer-hand.svg" class="computer-hand no-logos" />
-        <img src="images/computer-hand-logos.svg" class="computer-hand with-logos"/>
-        <p>My name is Sofia.
-          I am a web developer and graphic designer 
-          based in Leicester, currently looking
-          for work as a cowboy/bunny-rabbit
-          </p>
+        <img
+          src="images/computer-hand-logos.svg"
+          class="computer-hand with-logos"
+        />
+        <p>
+          My name is Sofia. I am a web developer and graphic designer based in
+          Leicester, currently looking for work as a cowboy/bunny-rabbit
+        </p>
       </div>
     </div>
 
-       <!--Contact section-->
-    <div class="contact green-block">
-      <div class="navigation">
-        <div class="navigation-div"><p>Home</p></div>
-        <div class="navigation-div"><p>Portfolio</p></div>
-        <div class="navigation-div"><p>About</p></div>
-        <div class="navigation-div"><p>Contact</p><div class="color-block"></div><div class="circle"></div></div>
-      </div>
-
-      </div>
-
+    <div class="green-block bottom-block">
+      <a href="#home">
+      <p class="back-to-top">Back to top</p></a>
+    </div>
   </body>
 </html>
