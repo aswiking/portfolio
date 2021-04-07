@@ -6,6 +6,7 @@ html {
 body {
   margin: 0;
   background-color: #ffd42aff;
+  color: #0b4541ff;
 }
 
 h1 {
@@ -27,12 +28,54 @@ p {
 
 .navigation {
   text-align: center;
-  color: #0b4541ff;
 }
 
-.navigation p {
+.navigation-div {
   display: inline-block;
   padding: 0 15px;
+  position: relative;
+}
+.navigation-div p {
+  z-index: 2;
+  position: relative;
+}
+
+.yellow-block .circle {
+  border: #0b4541ff 1px solid;
+}
+.yellow-block .color-block {
+  background-color: #ffd42aff;
+}
+
+.green-block {
+  background-color: #0b4541ff;
+  color: #ffd42aff;
+}
+
+.circle {
+  border: #ffd42aff 1px solid;
+}
+
+.color-block {
+  background-color: #0b4541ff;
+}
+
+.circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+  position: relative;
+}
+
+.color-block {
+  height: 14px;
+  margin-top: -32px;
+  z-index: 1;
+  position: relative;
 }
 
 .computer {
@@ -246,7 +289,6 @@ p {
 /* Work section */
 .work {
   display: block;
-  background-color: #0b4541ff;
   width: 100%;
   margin: 0;
   color: #ffd42aff;
@@ -389,7 +431,6 @@ p {
 /* About section*/
 .about-section {
   margin: 0 20px;
-  color: #0b4541ff;
 }
 
 .about-section .navigation {

@@ -9,6 +9,7 @@ html {
 body {
   margin: 0;
   background-color: $primary-color;
+  color: $secondary-color;
 }
 
 h1 {
@@ -30,12 +31,55 @@ p {
 
 .navigation {
   text-align: center;
-  color: $secondary-color;
 }
 
-.navigation p {
+.navigation-div {
   display: inline-block;
   padding: 0 15px;
+  position: relative;
+
+  p {
+    z-index: 2;
+    position: relative;
+  }
+}
+
+.yellow-block {
+  .circle {
+  border: $secondary-color 1px solid;}
+
+  .color-block {
+  background-color: $primary-color;
+  }
+}
+
+.green-block {
+background-color: $secondary-color;
+color: $primary-color;
+}
+
+.circle {
+  border: $primary-color 1px solid;}
+
+  .color-block {
+  background-color: $secondary-color;
+  }
+
+.circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+  position: relative;
+}
+.color-block {
+  height: 14px;
+  margin-top: -32px;
+  z-index: 1;
+  position: relative;
 }
 
 .computer {
@@ -251,7 +295,6 @@ p {
 
 .work {
   display: block;
-  background-color: $secondary-color;
   width: 100%;
   margin: 0;
   color: $primary-color;
@@ -392,7 +435,7 @@ p {
 
 .about-section {
   margin: 0 20px;
-  color: $secondary-color;
+
 }
 
 .about-section .navigation {
