@@ -175,6 +175,27 @@
   width: 255px;
 }
 
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .about-section {
+    margin: 0 20px 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 20px;
+  }
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .about-section {
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 0;
+    align-items: unset;
+  }
+  .about-section p {
+    margin: 100% 0 0 0;
+  }
+}
 .computer {
   background: url(./images/Computer.svg) no-repeat center;
   background-size: contain;
@@ -424,6 +445,10 @@
     display: inline-block;
     padding: 0 8px;
     margin: 7px 15px 27px;
+  }
+
+  .color-block {
+    margin-top: -44px;
   }
 }
 /*Medium devices (tablets, 768px and up)*/
