@@ -196,6 +196,13 @@
     margin: 100% 0 0 0;
   }
 }
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 925px) {
+  .about-section p {
+    margin: 100% 0 0 -8%;
+    width: 105%;
+  }
+}
 .computer {
   background: url(./images/Computer.svg) no-repeat center;
   background-size: contain;
@@ -337,10 +344,9 @@
     background: url(./images/Computer.svg) no-repeat center;
     background-size: contain;
     display: block;
-    margin: 70px auto;
+    margin: 0 auto;
     width: 663px;
     height: 510px;
-    background-color: #ce729d;
   }
 
   .screen-objects {
@@ -456,12 +462,12 @@
   .navigation p {
     display: inline-block;
     padding: 0 8px;
-    margin: 14px 14px 27px;
+    margin: 14px 14px;
     font-size: 18px;
   }
 
   .color-block {
-    margin-top: -52px;
+    margin-top: -39px;
     height: 20px;
   }
 
@@ -478,6 +484,7 @@
 html {
   font-size: 16px;
   box-sizing: border-box;
+  scroll-behavior: smooth !important;
 }
 
 body {
@@ -506,11 +513,23 @@ p {
 a {
   color: inherit;
   text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+a:hover {
+  color: #c83737;
 }
 
 .green-block {
   background-color: #0b4541ff;
   color: #ffd42aff;
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 925px) {
+  p {
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

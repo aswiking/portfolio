@@ -45,3 +45,11 @@
     }
   }
 }
+
+  /*Large devices (desktops, 992px and up)*/
+  @media (min-width: 925px) {
+    .about-section p {
+        margin: 100% 0 0 -8%;
+        width: 105%;
+    }
+  }
