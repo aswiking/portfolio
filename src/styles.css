@@ -10,7 +10,7 @@
 }
 
 .divider-line {
-  border-bottom: dotted 3px #ffd42aff;
+  border-bottom: solid 3px #ffd42aff;
   margin: 20px 0;
 }
 
@@ -203,13 +203,17 @@
     width: 105%;
   }
 }
+.home {
+  min-height: 100vh;
+}
+
 .computer {
   background: url(./images/Computer.svg) no-repeat center;
   background-size: contain;
   display: block;
   width: 250px;
   height: 192px;
-  margin: 40px auto;
+  margin: 40px auto 70px;
 }
 
 .screen-objects {
@@ -274,13 +278,21 @@
   width: 46px;
 }
 
+.arrow path {
+  fill: #0b4541ff;
+  transition: fill 0.5s ease;
+}
+
+.arrow:hover path {
+  fill: #d14b4b;
+}
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
   .computer {
     background: url(./images/Computer.svg) no-repeat center;
     background-size: contain;
     display: block;
-    margin: 0 auto;
     width: 370px;
     height: 285px;
   }
@@ -344,7 +356,6 @@
     background: url(./images/Computer.svg) no-repeat center;
     background-size: contain;
     display: block;
-    margin: 0 auto;
     width: 663px;
     height: 510px;
   }
@@ -370,6 +381,12 @@
 
   .logos svg {
     font-size: 2.5rem;
+    transition: color 0.5s ease;
+    cursor: pointer;
+  }
+
+  .logos svg:hover {
+    color: #d14b4b;
   }
 
   .line {
@@ -389,8 +406,8 @@
 
   .arrow {
     display: block;
-    margin: 20px auto;
-    width: 46px;
+    margin: 40px auto;
+    width: 80px;
   }
 }
 .navigation {
@@ -517,7 +534,7 @@ a {
 }
 
 a:hover {
-  color: #c83737;
+  color: #d14b4b;
 }
 
 .green-block {

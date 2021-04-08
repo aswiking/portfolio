@@ -1,10 +1,15 @@
+.home {
+    min-height: 100vh;
+
+}
+
 .computer {
   background: url(./images/Computer.svg) no-repeat center;
   background-size: contain;
   display: block;
   width: 250px;
   height: 192px;
-  margin: 40px auto;
+  margin: 40px auto 70px;
 }
 
 .screen-objects {
@@ -69,13 +74,23 @@
   width: 46px;
 }
 
+.arrow path {
+    fill: $secondary-color;
+    transition: fill 0.5s ease;
+}
+
+.arrow:hover path {
+    fill: $contrast-color;
+}
+
+
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
   .computer {
     background: url(./images/Computer.svg) no-repeat center;
     background-size: contain;
     display: block;
-    margin: 0 auto;
     width: 370px;
     height: 285px;
   }
@@ -140,7 +155,6 @@
     background: url(./images/Computer.svg) no-repeat center;
     background-size: contain;
     display: block;
-    margin: 0 auto;
     width: 663px;
     height: 510px;
   }
@@ -165,6 +179,12 @@
 
   .logos svg {
     font-size: 2.5rem;
+    transition: color 0.5s ease;
+    cursor: pointer;
+  }
+
+  .logos svg:hover {
+    color: $contrast-color;
   }
 
   .line {
@@ -184,8 +204,7 @@
 
   .arrow {
     display: block;
-    margin: 20px auto;
-    width: 46px;
+    margin: 40px auto;
+    width: 80px;
   }
 }
-
