@@ -1,0 +1,88 @@
+.navigation {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navigation-div {
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+
+  p {
+    z-index: 2;
+    position: relative;
+  }
+}
+
+.circle {
+  border: $primary-color 1px solid;
+}
+
+.color-block {
+  background-color: $secondary-color;
+}
+
+.circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 0;
+  position: relative;
+}
+
+.color-block {
+  height: 14px;
+  margin-top: -32px;
+  z-index: 1;
+  position: relative;
+}
+
+.yellow-block {
+  .circle {
+    border: $secondary-color 1px solid;
+  }
+
+  .color-block {
+    background-color: $primary-color;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .navigation {
+    text-align: right;
+  }
+
+  .navigation p {
+    display: inline-block;
+    padding: 0 8px;
+    margin: 7px 15px 27px;
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .navigation p {
+    display: inline-block;
+    padding: 0 8px;
+    margin: 14px 14px 27px;
+    font-size: 18px;
+  }
+
+  .color-block {
+    margin-top: -52px;
+    height: 20px;
+  }
+
+  .yellow-block .circle {
+    border: #0b4541ff 1px solid;
+  }
+  .circle {
+    width: 30px;
+    height: 30px;
+    margin-top: -25px;
+  }
+}
