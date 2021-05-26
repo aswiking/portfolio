@@ -33,7 +33,7 @@
     grid-template-columns: 1.3fr 1fr;
   }
   
-  .cocktail-maker {
+  .cocktail-maker, .fledgling {
     grid-template-columns: 1fr 1.3fr;
     padding-bottom: 20px;
   }
@@ -106,7 +106,7 @@
       grid-template-columns: 4.15fr 1.83fr 2.215fr 1.694fr;
     }
   
-    .cocktail-maker {
+    .cocktail-maker, .fledgling {
       overflow: hidden;
       grid-template-columns: 4.15fr 0.82fr 1.894fr 2.43fr;
     }
