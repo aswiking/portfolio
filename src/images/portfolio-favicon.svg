@@ -7,6 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="4.54"
+   inkscape:export-xdpi="4.54"
+   inkscape:export-filename="/Users/fia/code/portfolio/src/images/portfolio-favicon-2.png"
    sodipodi:docname="portfolio-favicon.svg"
    inkscape:version="1.0 (4035a4f, 2020-05-01)"
    id="svg8"
@@ -52,15 +55,25 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
+    <circle
+       inkscape:export-ydpi="4.4135361"
+       inkscape:export-xdpi="4.4135361"
+       r="89.58036"
+       cy="126.65714"
+       cx="103.17599"
+       id="path855"
+       style="fill:#ffd42a;fill-opacity:1;stroke:#0b4541;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
     <text
+       inkscape:export-ydpi="4.4135361"
+       inkscape:export-xdpi="4.4135361"
        id="text835"
-       y="195.36563"
-       x="20.23502"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:196.31px;line-height:1.25;font-family:'Rubik Mono One';-inkscape-font-specification:'Rubik Mono One';fill:#0b4541;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       y="176.26498"
+       x="43.292221"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:141.736px;line-height:1.25;font-family:'Rubik Mono One';-inkscape-font-specification:'Rubik Mono One';fill:#0b4541;fill-opacity:1;stroke:none;stroke-width:0.264583"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Rubik Mono One';-inkscape-font-specification:'Rubik Mono One';fill:#0b4541;fill-opacity:1;stroke-width:0.264583"
-         y="195.36563"
-         x="20.23502"
+         y="176.26498"
+         x="43.292221"
          id="tspan833"
          sodipodi:role="line">S</tspan></text>
   </g>
