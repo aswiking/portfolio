@@ -1,0 +1,4 @@
+[[redirects]]
+    from = "/portfolio"
+    to = "https://aswiking-cocktail.netlify.app"
+    status = 200
