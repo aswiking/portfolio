@@ -1,4 +1,4 @@
 [[redirects]]
-    from = "/portfolio"
-    to = "https://aswiking-cocktail.netlify.app"
+    from = "/cocktail/*"
+    to = "https://aswiking-cocktail.netlify.app/:splat"
     status = 200
