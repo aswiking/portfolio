@@ -2,3 +2,8 @@
     from = "/cocktail/*"
     to = "https://aswiking-cocktail.netlify.app/:splat"
     status = 200
+
+    [[redirects]]
+    from = "/fledgling/*"
+    to = "https://aswiking-fledgling.netlify.app:splat"
+    status = 200
