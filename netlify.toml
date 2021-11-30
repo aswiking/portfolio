@@ -4,6 +4,11 @@
     status = 200
 
 [[redirects]]
+    from = "/fledgling/api/*"
+    to = "https://hidden-tor-50969.herokuapp.com/api/:splat"
+    status = 200
+
+[[redirects]]
     from = "/fledgling/*"
     to = "https://aswiking-fledgling.netlify.app/:splat"
     status = 200
