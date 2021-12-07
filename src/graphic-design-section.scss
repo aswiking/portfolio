@@ -1,0 +1,71 @@
+.graphic-design {
+    margin: 0 20px;
+    padding-bottom: 20px;
+
+  .work-title {
+    text-align: center;
+  }
+
+  p {
+    margin-top: 0;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    max-height: 40vh;
+    list-style-type: none;
+    padding-bottom: 10px;
+  }
+
+  li:nth-child(odd) {
+      padding-right: 10px;
+  }
+
+  img {
+    max-height: 100%;
+    min-width: 10%;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
+
+  #ALA4 {
+      width: 44vw;
+  }
+
+  #mors-blogg {
+      width: 30vw;
+  }
+
+  #mc-preview {
+    width: 37vw;
+  }
+
+  #education {
+    width: 30vw;
+}
+
+#climate {
+    width: 50vw;
+}
+
+#ALA1 {
+    width: 30vw;
+}
+
+#nine-eleven {
+    width: 37vw;
+}
+
+#ortas {
+    width: 37vw;
+}
+
+}
