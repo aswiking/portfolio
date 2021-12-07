@@ -1,6 +1,6 @@
 .graphic-design {
-    margin: 0 20px;
-    padding-bottom: 20px;
+  margin: 0 20px;
+  padding-bottom: 20px;
 
   .work-title {
     text-align: center;
@@ -26,7 +26,7 @@
   }
 
   li:nth-child(odd) {
-      padding-right: 10px;
+    padding-right: 10px;
   }
 
   img {
@@ -37,11 +37,11 @@
   }
 
   #ALA4 {
-      width: 44vw;
+    width: 44vw;
   }
 
   #mors-blogg {
-      width: 30vw;
+    width: 30vw;
   }
 
   #mc-preview {
@@ -50,22 +50,37 @@
 
   #education {
     width: 30vw;
-}
+  }
 
-#climate {
+  #climate {
     width: 50vw;
-}
+  }
 
-#ALA1 {
+  #ALA1 {
     width: 30vw;
-}
+  }
 
-#nine-eleven {
+  #nine-eleven {
     width: 37vw;
-}
+  }
 
-#ortas {
+  #ortas {
     width: 37vw;
+  }
 }
 
+.masonry {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  
+  img {
+    flex: 1 0 auto;
+    /* height: 20vh; */
+    margin: 5px;
+    /* width: 50vw; */
+    flex-basis: 27%;
+    flex: 1 0 36%;
+  }
 }
