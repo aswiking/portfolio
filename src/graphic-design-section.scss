@@ -10,77 +10,64 @@
     margin-top: 0;
   }
 
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+  .masonry {
+    margin-bottom: 40px;
+
+    img {
+      display: block;
+      width: 100%;
+      margin-bottom: 0.2em;
+    }
   }
 
-  li {
-    max-height: 40vh;
-    list-style-type: none;
-    padding-bottom: 10px;
-  }
-
-  li:nth-child(odd) {
-    padding-right: 10px;
-  }
-
-  img {
-    max-height: 100%;
-    min-width: 10%;
-    object-fit: cover;
-    vertical-align: bottom;
-  }
-
-  #ALA4 {
-    width: 44vw;
-  }
-
-  #mors-blogg {
-    width: 30vw;
-  }
-
-  #mc-preview {
-    width: 37vw;
-  }
-
-  #education {
-    width: 30vw;
-  }
-
-  #climate {
-    width: 50vw;
-  }
-
-  #ALA1 {
-    width: 30vw;
-  }
-
-  #nine-eleven {
-    width: 37vw;
-  }
-
-  #ortas {
-    width: 37vw;
+  .masonry-illustration {
+    img {
+      display: block;
+      width: 70%;
+      margin: 1em auto;
+    }
   }
 }
 
-.masonry {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-  
-  img {
-    flex: 1 0 auto;
-    /* height: 20vh; */
-    margin: 5px;
-    /* width: 50vw; */
-    flex-basis: 27%;
-    flex: 1 0 36%;
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .graphic-design {
+      .work-title{
+          width: 100%;
+      }
+      p {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+  }}
+  .masonry {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    -moz-column-gap: 0.2em;
+    -webkit-column-gap: 0.2em;
+    column-gap: 0.2em;
+    margin-bottom: 20px;
+  }
+  .masonry-illustration {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    -moz-column-gap: 1em;
+    -webkit-column-gap: 1em;
+    column-gap: 1em;
+    margin: 0 1em;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .masonry-illustration {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
   }
 }
